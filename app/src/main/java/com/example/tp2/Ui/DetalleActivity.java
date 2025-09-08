@@ -38,7 +38,7 @@ public class DetalleActivity extends AppCompatActivity {
         viewModel.getLibroMutable().observe(this, libro -> {
             binding.tvTitulo.setText(libro.getTitulo());
             binding.tvAutor.setText(libro.getAutor());
-            binding.tvAnio.setText(libro.getAnio());
+            binding.tvAnio.setText(libro.getAnio()+"");
             binding.tvDescripcion.setText(libro.getDescripcion());
             binding.ivImagen.setImageResource(libro.getImagen());
         });

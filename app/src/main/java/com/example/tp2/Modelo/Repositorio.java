@@ -8,6 +8,7 @@ public class Repositorio {
     private ArrayList<Libro> lista;
 
     public Repositorio() {
+        lista= new ArrayList<>();
         Libro l1=new Libro("Harry Potter"," J.K. Rowling","Las aventuras de Harry Potter y sus amigos en Hogwarts,el colegio de magia",1997, R.drawable.libro1);
         Libro l2=new Libro("Señor de los anillos"," J. R. R. Tolkien.","La novela narra el viaje del protagonista principal, Frodo Bolsón, hobbit de la Comarca, para destruir el Anillo Único",1954,R.drawable.libro2);
         Libro l3= new Libro("Alas de Hierro","Rebecca Yarros.","Alas de hierro (Empíreo 2) Rebecca Yarros Todos esperaban que Violet Sorrengail muriera en su primer año en el Colegio de Guerra de Basgiath, incluso ella misma",2024,R.drawable.libro3);
